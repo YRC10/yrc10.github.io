@@ -5,10 +5,11 @@ import HomePageClient, { type HomePageLocaleData } from '@/components/home/HomeP
 import { Publication } from '@/types/publication';
 import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
+import type { ExperienceItem } from '@/components/home/Experience';
 
 interface SectionConfig {
   id: string;
-  type: 'markdown' | 'publications' | 'list';
+  type: 'markdown' | 'publications' | 'list' | 'experience';
   title?: string;
   source?: string;
   filter?: string;
@@ -16,6 +17,7 @@ interface SectionConfig {
   content?: string;
   publications?: Publication[];
   items?: NewsItem[];
+  experienceItems?: ExperienceItem[];
 }
 
 interface NewsItem {
@@ -53,6 +55,15 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         return {
           ...section,
           items: newsData?.news || [],
+        };
+      }
+      case 'experience': {
+        const experienceData = section.source
+          ? getTomlContent<{ experience: ExperienceItem[] }>(section.source, locale)
+          : null;
+        return {
+          ...section,
+          experienceItems: experienceData?.experience || [],
         };
       }
       default:

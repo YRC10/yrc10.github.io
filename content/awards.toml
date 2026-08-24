@@ -3,25 +3,19 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "Best Dataset Paper Award"
+subtitle = "International AAAI Conference on Web and Social Media (ICWSM)"
+date = "2026"
+# Uncomment after replacing the URL with the article's actual link:
+content = "[*MASH: A Multiplatform and Multimodal Annotated Dataset for Societal Impact of Hurricane*](https://arxiv.org/abs/2509.23627)"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Degree with Distinction"
+subtitle = "University of British Columbia"
 date = "2022"
-content = "Description of the award."
+
+[[items]]
+title = "Dean's Honour List"
+subtitle = "University of British Columbia"
+date = "2018–2022"
+content = "Awarded four times."

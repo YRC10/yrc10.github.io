@@ -1,7 +1,15 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-08"
+content = "Our work [*“Beyond Truth Discovery: A Two-Stage Framework to Assess the Severity of False Claim during Disasters”*](https://arxiv.org/abs/2608.20983) has been accepted to HCOMP 2026. 🎉"
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2026-05"
+content = "Our work [*“MASH: A Multiplatform and Multimodal Annotated Dataset for Societal Impact of Hurricane”*](https://arxiv.org/abs/2509.23627) has been accepted to ICWSM 2026 and received the Best Dataset Paper Award. 🎉"
+
+[[news]]
+date = "2026-05"
+content = "Our work [*“DisImpact: Quantifying the Physi-Social Impact of Natural Disasters Through Social Media”*](https://arxiv.org/abs/2605.20646) has been accepted to ICWSM 2026. 🎉"
+
+[[news]]
+date = "2024-08"
+content = "Started my PhD journey at the University of Illinois Urbana-Champaign."

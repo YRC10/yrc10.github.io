@@ -1,9 +1,33 @@
 type = "card"
 title = "Services"
-description = "Professional services and community involvement."
+description = "Review service for conferences and journals."
 
 [[items]]
 title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+subtitle = "AAAI special track on Artificial Intelligence for Social Impact (AISI)"
+date = "2027"
+
+[[items]]
+title = "Reviewer"
+subtitle = "The ACM Conference on Human-AI Complementarity and Alignment (HCOMP)"
+date = "2026"
+
+[[items]]
+title = "Reviewer"
+subtitle = "International AAAI Conference on Web and Social Media (ICWSM)"
+date = "2026"
+
+[[items]]
+title = "Reviewer"
+subtitle = "The ACM Web Conference (WWW)"
+date = "2025, 2026"
+
+[[items]]
+title = "Reviewer"
+subtitle = "IEEE Transactions on Big Data"
+date = "2025, 2026"
+
+[[items]]
+title = "Reviewer"
+subtitle = "AAAI Conference on AI, Ethics, and Society (AIES)"
+date = "2025"

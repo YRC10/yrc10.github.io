@@ -1,0 +1,20 @@
+[[experience]]
+institution = "University of Illinois Urbana-Champaign"
+role = "Doctor of Philosophy - Information Sciences"
+advisor = "Dr. Dong Wang"
+date = "2024 - Present"
+logo = "/uiuc.jpeg"
+
+[[experience]]
+institution = "University of British Columbia"
+role = "Master of Engineering - Electrical and Computer Engineering"
+advisor = ""
+date = "2022 - 2024"
+logo = "/ubc.jpeg"
+
+[[experience]]
+institution = "University of British Columbia"
+role = "Bachelor of Applied Science - Electrical Engineering"
+advisor = ""
+date = "2018 - 2022"
+logo = "/ubc.jpeg"

@@ -12,6 +12,8 @@ export interface SiteConfig {
   };
   author: {
     name: string;
+    chinese_name?: string;
+    chinese_name_font?: string;
     title: string;
     institution: string;
     avatar: string;
@@ -39,7 +41,7 @@ export interface SiteConfig {
   }>;
   sections?: Array<{
     id: string;
-    type: 'markdown' | 'publications' | 'list' | 'cards';
+    type: 'markdown' | 'publications' | 'list' | 'cards' | 'experience';
     source?: string;
     title?: string;
     filter?: string;

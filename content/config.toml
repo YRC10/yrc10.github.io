@@ -1,52 +1,58 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
-favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+title = "Ruichen Yao"
+description = "PhD student at the University of Illinois Urbana-Champaign."
+favicon = "/logo.JPG"
+last_updated = "Aug 23, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
+name = "Ruichen Yao"
+# Optional Chinese name shown directly below the English name.
+chinese_name = "姚睿辰"
+# Examples: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "Microsoft YaHei"
+# Leave blank to use the recommended Chinese serif fallback stack.
+chinese_name_font = ""
+# title = "PhD Student"
+institution = "University of Illinois Urbana-Champaign"
 avatar = "/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
-]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+# Displayed directly below the institution in a monospace font.
+email = "ryao8@illinois.edu"
+# location = "City, Country"
+# location_url = "https://maps.google.com"
+# location_details = [
+#   "Room 123, Science Building,",
+#   "University Avenue, City, Country"
+# ]
+google_scholar = "https://scholar.google.com/citations?user=_ffV15wAAAAJ&hl=en&oi=ao"
+orcid = "https://orcid.org/0009-0000-4175-9775"
+github = "https://github.com/YRC10"
+linkedin = "https://www.linkedin.com/in/yrc10/"
 
 [features]
 # Show a like button on the about page
-enable_likes = true
+# enable_likes = true
 
 # Display all subpages on a single page
 enable_one_page_mode = false
 
-[i18n]
-enabled = true
-locales = ["zh", "en"]
-default_locale = "en"
-# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
-mode = "auto"
-fixed_locale = "en"
-# If true, PRISM will remember user's language preference in browser's localStorage
-persist = true
-# Show a language switcher on the top right corner
-switcher = true
-
-[i18n.labels]
-zh = "中文"
-en = "English"
+# Multilingual support is temporarily disabled so the site only displays English.
+# The Chinese content in content_zh/ is preserved and can be restored later by
+# uncommenting this block.
+# [i18n]
+# enabled = true
+# locales = ["zh", "en"]
+# default_locale = "en"
+# mode = "auto"
+# fixed_locale = "en"
+# persist = true
+# switcher = true
+#
+# [i18n.labels]
+# zh = "中文"
+# en = "English"
 
 [[navigation]]
 title = "About"
@@ -78,8 +84,8 @@ type = "page"
 target = "services"
 href = "/services"
 
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"
+# [[navigation]]
+# title = "CV"
+# type = "page"
+# target = "cv"
+# href = "/cv"
