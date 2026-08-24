@@ -37,6 +37,7 @@ export interface Publication {
   code?: string;
   pdfUrl?: string;
   dataset?: string;
+  highlight?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;

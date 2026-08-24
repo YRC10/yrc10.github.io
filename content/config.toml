@@ -2,15 +2,14 @@
 title = "Ruichen Yao"
 description = "PhD student at the University of Illinois Urbana-Champaign."
 favicon = "/logo.JPG"
-last_updated = "Aug 23, 2026"
+last_updated = "Aug 24, 2026"
 
 [author]
 name = "Ruichen Yao"
 # Optional Chinese name shown directly below the English name.
 chinese_name = "姚睿辰"
-# Examples: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "Microsoft YaHei"
-# Leave blank to use the recommended Chinese serif fallback stack.
-chinese_name_font = ""
+# Web font subset generated from public/font/huangkaihuaLawyerfont-2.ttf.
+chinese_name_font = "Chinese Name Calligraphy"
 # title = "PhD Student"
 institution = "University of Illinois Urbana-Champaign"
 avatar = "/bio.jpg"

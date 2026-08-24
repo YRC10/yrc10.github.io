@@ -1,3 +1,22 @@
+@inproceedings{yao2026beyond,
+  author    = {Ruichen Yao and Tejna Dasari and Gulshat Baispay and Aizhan Zaurbek and Yifan Liu and Yaokun Liu and Zelin Li and Dong Wang},
+  title     = {Beyond Truth Discovery: A Two-Stage Framework to Assess the Severity of False Claim during Disasters},
+  booktitle = {Proceedings of the 2026 ACM Conference on Human-AI Complementarity and Alignment (HCOMP 2026)},
+  year      = {2026},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/3834580.3838746},
+
+  abstract = {False information spreads rapidly on social media during disasters and can undermine emergency response efforts, public trust, and crisis communication. Existing research primarily focuses on determining whether social media posts contain false information, but provides limited insight into the specific false claims embedded within posts and the severity of individual false claims. To address the limitations, we propose a two-stage framework to assess the severity of false claims during disasters. In the first stage, we develop a false claim extraction agent that identifies false claims from multimodal social media posts containing text, images, videos, and links. A subsequent verification step validates extracted claims with supporting evidence. In the second stage, we define false claim severity as the combination of two complementary dimensions: believability, which determines the likelihood that a claim will be believed, and harmfulness, which captures the potential consequences if it is believed. Human annotators assess both dimensions to construct a claim-level severity benchmark using false claims extracted from Reddit posts related to hurricanes and wildfires. Building upon this benchmark, we investigate false claim severity assessment as a human-AI alignment problem, evaluating whether models can reproduce human judgments under a shared evaluation rubric rather than merely predicting severity labels. Experiments on the benchmark show that traditional supervised models exhibit limited alignment with human judgments, whereas Large Language Models (LLMs) achieve substantially stronger performance. Among the evaluated strategies, in-context learning consistently achieves the strongest alignment with human judgments, highlighting the importance of human examples and shared decision criteria for severity assessment.
+},
+
+
+  selected = {true},
+  pdf = {https://arxiv.org/pdf/2608.20983},
+  preview = {fsd.png},
+
+}
+
 @inproceedings{yao2026mash,
   title={MASH: A Multiplatform and Multimodal Annotated Dataset for Societal Impact of Hurricane},
   author={Yao, Ruichen and Murzakhmetov, Aslanbek and Pillai, Raaghav and Maussymbayeva, Aliya and Li, Zelin and Liu, Yifan and Liu, Yaokun and Shang, Lanyu and Zhang, Yang and Wei, Na and others},
@@ -12,6 +31,7 @@
 
   preview = {mash.png},
   selected = {true},
+  highlight = {Best Dataset Paper Award},
   url = {https://hurricane.web.illinois.edu/},
   pdf = {https://arxiv.org/pdf/2509.23627},
   dataset = {https://huggingface.co/datasets/YRC10/MASH}
@@ -31,6 +51,7 @@
 
   selected = {true},
   pdf = {https://arxiv.org/pdf/2605.20646},
+  preview = {disimpact.png},
 }
 
 @inproceedings{
@@ -58,7 +79,8 @@ preview = {sketch.png},
   abstract = {The proliferation of fake news on social media platforms disproportionately impacts vulnerable populations, eroding trust, exacerbating inequality, and amplifying harmful narratives. Detecting fake news in multimodal contexts-where deceptive content combines text and images-is particularly challenging due to the nuanced interplay between modalities. Existing multimodal fake news detection methods often emphasize cross-modal consistency but ignore the complex interactions between text and visual elements, which may complement, contradict, or independently influence the predicted veracity of a post. To address these challenges, we present Modality Interactive Mixture-of-Experts for Fake News Detection (MIMoE-FND), a novel hierarchical Mixture-of-Expert framework designed to enhance multimodal fake news detection by explicitly modeling modality interactions through an interaction gating mechanism. Our approach models modality interactions by evaluating two key aspects of modality interactions: unimodal prediction agreement and semantic alignment. The hierarchical structure of MIMoE-FND allows for distinct learning pathways tailored to different fusion scenarios, adapting to the unique characteristics of each modality interaction. By tailoring fusion strategies to diverse modality interaction scenarios, MIMoE-FND provides a more robust and nuanced approach to multimodal fake news detection. We evaluate our approach on three real-world benchmarks spanning two languages, demonstrating its superior performance compared to state-of-the-art methods. By enhancing the accuracy and interpretability of fake news detection, MIMoE-FND offers a promising tool to mitigate the spread of misinformation, with potential to better safeguard vulnerable communities against its harmful effects.},
 
   pdf = {https://arxiv.org/pdf/2501.12431},
-selected = {true},
+  preview = {mamoe.png},
+  selected = {true},
 }
 
 @inproceedings{liu2025component,
@@ -70,5 +92,6 @@ selected = {true},
 
   abstract = {The widespread integration of face recognition technologies into various applications (e.g., access control and personalized advertising) necessitates a critical emphasis on fairness. While previous efforts have focused on demographic fairness, the fairness of individual biological face components remains unexplored. In this paper, we focus on face component fairness, a fairness notion defined by biological face features. To our best knowledge, our work is the first work to mitigate bias of face attribute prediction at the biological feature level. In this work, we identify two key challenges in optimizing face component fairness: attribute label scarcity and attribute inter-dependencies, both of which limit the effectiveness of bias mitigation from previous approaches. To address these issues, we propose \textbf{B}ayesian \textbf{N}etwork-informed \textbf{M}eta \textbf{R}eweighting (BNMR), which incorporates a Bayesian Network calibrator to guide an adaptive meta-learning-based sample reweighting process. During the training process of our approach, the Bayesian Network calibrator dynamically tracks model bias and encodes prior probabilities for face component attributes to overcome the above challenges. To demonstrate the efficacy of our approach, we conduct extensive experiments on a large-scale real-world human face dataset. Our results show that BNMR is able to consistently outperform recent face bias mitigation baselines. Moreover, our results suggest a positive impact of face component fairness on the commonly considered demographic fairness (e.g., \textit{gender}). Our findings pave the way for new research avenues on face component fairness, suggesting that face component fairness could serve as a potential surrogate objective for demographic fairness.},
 
-  pdf = {https://arxiv.org/pdf/2505.01699}
+  pdf = {https://arxiv.org/pdf/2505.01699},
+  preview = {face_comp.png},
 }

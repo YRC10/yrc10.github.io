@@ -121,7 +121,7 @@ export default function Profile({ author, social, features, researchInterests }:
                 </h1>
                 {author.chinese_name && (
                     <p
-                        className="font-chinese-name text-xl font-semibold text-primary mb-2"
+                        className="font-chinese-name text-3xl font-normal text-primary mb-2"
                         style={author.chinese_name_font ? { fontFamily: author.chinese_name_font } : undefined}
                     >
                         {author.chinese_name}
