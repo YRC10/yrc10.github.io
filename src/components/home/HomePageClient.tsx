@@ -5,6 +5,7 @@ import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
 import Experience, { ExperienceItem } from '@/components/home/Experience';
+import MapMyVisitors from '@/components/home/MapMyVisitors';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
@@ -38,6 +39,7 @@ export interface HomePageLocaleData {
   features: SiteConfig['features'];
   enableOnePageMode?: boolean;
   researchInterests?: string[];
+  mapMyVisitors?: SiteConfig['mapmyvisitors'];
   pagesToShow: PageData[];
 }
 
@@ -133,6 +135,11 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           ))}
         </div>
       </div>
+      <MapMyVisitors
+        id={data.mapMyVisitors?.id}
+        statisticsUrl={data.mapMyVisitors?.statistics_url}
+        title={data.mapMyVisitors?.title}
+      />
     </div>
   );
 }

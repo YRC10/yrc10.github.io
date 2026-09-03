@@ -37,6 +37,13 @@ linkedin = "https://www.linkedin.com/in/yrc10/"
 # Display all subpages on a single page
 enable_one_page_mode = false
 
+[mapmyvisitors]
+# Create a Map Counter for https://yrc10.github.io at https://mapmyvisitors.com/
+# and paste the value after "d=" from the generated map.js embed code below.
+id = "sN_XlW9bfFnI2iC8SlB6CkxOh51iI7n3kQ80M-EPG9Y"
+statistics_url = "https://mapmyvisitors.com/web/1c801"
+title = ""
+
 # Multilingual support is temporarily disabled so the site only displays English.
 # The Chinese content in content_zh/ is preserved and can be restored later by
 # uncommenting this block.

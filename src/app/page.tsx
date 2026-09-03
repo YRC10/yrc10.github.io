@@ -144,6 +144,7 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
     features: localeConfig.features,
     enableOnePageMode,
     researchInterests,
+    mapMyVisitors: localeConfig.mapmyvisitors,
     pagesToShow,
   };
 }
