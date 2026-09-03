@@ -41,6 +41,7 @@ export default function News({ items, title }: NewsProps) {
                                     />
                                 ),
                                 em: ({ children }) => <em className="font-serif italic">{children}</em>,
+                                strong: ({ children }) => <strong className="font-semibold text-accent">{children}</strong>,
                             }}
                         >
                             {item.content}

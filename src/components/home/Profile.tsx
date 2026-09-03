@@ -240,10 +240,25 @@ export default function Profile({ author, social, features, researchInterests }:
             {researchInterests && researchInterests.length > 0 && (
                 <div className="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]">
                     <h3 className="font-serif font-semibold text-primary mb-3">{messages.profile.researchInterests}</h3>
-                    <div className="space-y-2 text-sm text-neutral-700 dark:text-neutral-500">
-                        {researchInterests.map((interest, index) => (
-                            <div key={index}>{interest}</div>
-                        ))}
+                    <div className="space-y-3">
+                        {researchInterests.map((interest, index) => {
+                            const separatorIndex = interest.indexOf(':');
+                            const category = separatorIndex >= 0 ? interest.slice(0, separatorIndex).trim() : interest;
+                            const topics = separatorIndex >= 0 ? interest.slice(separatorIndex + 1).trim() : '';
+
+                            return (
+                                <div key={index} className="border-l-2 border-accent/40 pl-3">
+                                    <div className="font-serif text-base font-semibold text-accent">
+                                        {category}
+                                    </div>
+                                    {topics && (
+                                        <div className="mt-1 text-sm leading-relaxed text-neutral-600 dark:text-neutral-500">
+                                            {topics}
+                                        </div>
+                                    )}
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             )}

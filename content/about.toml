@@ -3,9 +3,9 @@ title = "About"
 
 [profile]
 research_interests = [
-  "AI for Social Good",
-  "Human-Centered AI",
-  "AI for Science"
+  "AI for Social Good: Multimodal Social Media Data, Computational Social Science",
+  "Human-Centered AI: Human–AI Collaboration, Human–AI Alignment",
+  "AI for Science: LLM-Based Reasoning, Agentic AI"
 ]
 
 [[sections]]
