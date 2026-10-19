@@ -23,7 +23,7 @@ source = "news.toml"
 [[sections]]
 id = "experience"
 type = "experience"
-title = "Experience"
+title = "Education"
 source = "experience.toml"
 
 [[sections]]
