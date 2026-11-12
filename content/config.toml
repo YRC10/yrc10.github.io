@@ -1,7 +1,7 @@
 [site]
 title = "Ruichen Yao"
 description = "PhD student at the University of Illinois Urbana-Champaign."
-favicon = "/logo.png"
+favicon = "/logo_favicon.svg"
 last_updated = "October 18, 2026"
 
 [author]
